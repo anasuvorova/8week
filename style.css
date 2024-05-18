@@ -1,0 +1,53 @@
+:root{
+    --color2:#FFFF00;
+    --color1: #FF1493;
+}
+header,footer,section {
+    padding: 50px 0;
+}
+header {
+    padding: 40px 0;
+}
+header,footer {
+background: var(--color1);
+background: -moz-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+background: -webkit-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=var(--color1), endColorstr=var(--color2),GradientType;
+
+#FFFF00  #FF1493
+--color1:#05b1b1;
+--color2: #52339a;
+.itd_play {
+    background-color: var(--color1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto 30px;
+    transition: all 0,2s ease;
+}
+.itd_play:hover {
+    background-color: var(--color2);
+}
+        .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    border: 1px solid: darkblue;
+  }
+  .container-container {
+    gap: 10px;
+    border: 1px solid rgb(13, 13, 90);
+  }
+  .card-img-top{
+    font-size: 18%;
+    border-radius: 20%;
+  }
+
+
+
